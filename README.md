@@ -12,9 +12,11 @@
 </p>
 
 ## Considerations
+
 This little documentation was written using only the browser DevTools as a base, so it has limited and incomplete data, but enough to create a good application. If you want to increase and improve the documentation even more, do not hesitate to visit the Dotpict website and/or edit this README.md! Thank you.
 
 ## Documentation
+
 - [Setup](#1-setup)
 - [Type|Entity definitions](https://github.com/LaksCastro/dotpict-api/blob/master/TYPES.md)
 - [Get trending arts](#2-get-trending-arts)
@@ -26,10 +28,11 @@ This little documentation was written using only the browser DevTools as a base,
 - [Search works by title](#8-search-works-by-title)
 - [Search works by tag](#9-search-works-by-tag)
 
-
 ### 1. Setup
+
 - Base URL: `https://api.dotpicko.net`
 - Smart tip on render the Pixel Arts: all image url's will have a small size by default (64x64), so, you may have problems to render it on a normal `<img>` HTML tag. To fix this, continue using the `<img>` tag, but with a additional CSS property:
+
 ```css
 /* BAD - ALL IMAGES WILL BE SHOW AS LOW QUALITY */
 img {
@@ -46,6 +49,7 @@ img {
 ```
 
 ### 2. Get trending arts
+
 - Endpoint: `/works/trend`
 - Method: `GET`
 - Params:
@@ -56,6 +60,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any work ID
 - Response:
+
 ```js
 {
   "data": {
@@ -69,6 +74,7 @@ img {
 ```
 
 ### 3. Get recent arts
+
 - Endpoint: `/v2/works`
 - Method: `GET`
 - Params:
@@ -79,6 +85,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any work ID
 - Response:
+
 ```js
 {
   "data": {
@@ -92,6 +99,7 @@ img {
 ```
 
 ### 4. Get works of a user
+
 - Endpoint: `/users/USER_ID/works`
 - Method: `GET`
 - Params:
@@ -105,6 +113,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any work ID
 - Response:
+
 ```js
 {
   "data": {
@@ -114,10 +123,12 @@ img {
   }
 }
 ```
+
 - Note:
   - The field `next_url` can be empty, that means, can be as empty string if the user not have more works
 
 ### 5. Get work threads
+
 - Endpoint: `/works/WORK_ID/threads`
 - Method: `GET`
 - Params:
@@ -131,6 +142,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any work ID
 - Response:
+
 ```js
 {
   "data": {
@@ -140,10 +152,12 @@ img {
   }
 }
 ```
+
 - Note:
   - The field `next_url` can be empty, that means, can be as empty string if the work have no more threads
 
 ### 6. Get work data
+
 - Endpoint: `/works/WORK_ID`
 - Method: `GET`
 - Params:
@@ -154,6 +168,7 @@ img {
 - Available query params:
   - none
 - Response:
+
 ```js
 {
   "data": {
@@ -164,6 +179,7 @@ img {
 ```
 
 ### 7. Search users by name
+
 - Endpoint: `/users/search_name`
 - Method: `GET`
 - Params:
@@ -182,6 +198,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any user ID
 - Response:
+
 ```js
 {
   "data": {
@@ -190,5 +207,63 @@ img {
   }
 }
 ```
+
+- Note:
+  - The field `next_url` can be empty, that means, can be as empty string if the search have no more results
+
+### 8. Search works by title
+
+- Endpoint: `/works/search_title`
+- Method: `GET`
+- Params:
+  - none
+- Available query params:
+  - `title`:
+    - description: The text that will be used to search works by title
+    - usage: here you put your typed string to search a work by title
+    - value: any **encoded** URL String
+  - `max_id`:
+    - description: return a list of works after the work passed on this param
+    - usage: use this param to build a pagination system
+    - value: any work ID
+- Response:
+
+```js
+{
+  "data": {
+    "works": Work[],
+    "next_url": string
+  }
+}
+```
+
+- Note:
+  - The field `next_url` can be empty, that means, can be as empty string if the search have no more results
+  
+### 9. Search works by tag
+- Endpoint: `/works/search_tag`
+- Method: `GET`
+- Params:
+  - none
+- Available query params:
+  - `tag`:
+    - description: The text that will be used to search a work with at least one tag that contains this substring
+    - usage: here you put your typed string to search a work by tag
+    - value: any **encoded** URL String
+  - `max_id`:
+    - description: return a list of works after the work passed on this param
+    - usage: use this param to build a pagination system
+    - value: any work ID
+- Response:
+
+```js
+{
+  "data": {
+    "works": Work[],
+    "next_url": string
+  }
+}
+```
+
 - Note:
   - The field `next_url` can be empty, that means, can be as empty string if the search have no more results
