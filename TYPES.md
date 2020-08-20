@@ -57,8 +57,9 @@ const work : Work = {
     </li>
   </ul>
 </details>
+
 <details>
-  <summary>Work</summary>
+  <summary>WorkThread</summary>
   <br>
   <ul>
     <li>
