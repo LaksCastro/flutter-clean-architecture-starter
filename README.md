@@ -11,7 +11,18 @@
   <img  src="https://img.shields.io/badge/where_from-doctpit_web_platform-blue" alt="Repo Ref" />
 </p>
 
-### Starting
+### Considerations
+
+### Documentation
+
+- [Setup](#setup)
+- Get trending arts
+- Get recent arts
+- Get arts from a user
+
+
+#### - Setup
+
 - Smart tip on render the Pixel Arts: all image url's will have a small size by default (64x64), so, you may have problems to render it on a normal `<img>` HTML tag. To fix this, continue using the `<img>` tag, but with a additional CSS property:
 ```css
 /* BAD - ALL IMAGES WILL BE SHOW AS LOW QUALITY */
