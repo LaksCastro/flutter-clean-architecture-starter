@@ -1,5 +1,6 @@
 <details>
   <summary>Work</summary>
+  <br>
   <ul>
     <li>
       <div>
@@ -24,6 +25,7 @@ interface Work {
   allow_thread: boolean;
 }
 ```
+
 <br>
       </div>
     </li>
@@ -58,6 +60,7 @@ const work : Work {
 
 <details>
   <summary>RankedWork</summary>
+  <br>
   <ul>
     <li>
       <div>
@@ -69,6 +72,7 @@ interface RankedWork {
   work: Work;
 }
 ```
+
 <br>
       </div>
     </li>
@@ -90,6 +94,7 @@ const rankedWork : RankedWork {
 
 <details>
   <summary>User</summary>
+  <br>
   <ul>
     <li>
       <div>
@@ -111,6 +116,7 @@ interface User {
   is_verified: boolean;
 }
 ```
+
 <br>
       </div>
     </li>
@@ -119,21 +125,23 @@ interface User {
         <p>Example</p>
 
 ```ts
-const user : User = {
+const user: User = {
   id: 453197,
   name: "にわしか",
   account: "",
   text: "おおきくなったらゔれいんずとけっこんするんだ",
   url: "https://www.pixiv.net/users/31989750",
   share_url: "https://dotpict.net/users/453197",
-  profile_image_url: "https://img.dotpicko.net/523512246c9e0354cefa1acdecd14157d261af1d73231eb532b398040e815cbd.png",
+  profile_image_url:
+    "https://img.dotpicko.net/523512246c9e0354cefa1acdecd14157d261af1d73231eb532b398040e815cbd.png",
   is_followed: false,
   is_banned: false,
   followed_count: 0,
   follower_count: 0,
   is_verified: true,
-}
+};
 ```
+
 <br>
       </div>
     </li>
@@ -142,6 +150,7 @@ const user : User = {
 
 <details>
   <summary>ColorCode</summary>
+  <br>
   <ul>
     <li>
       <div>
@@ -155,6 +164,7 @@ interface ColorCode {
   alpha: number;
 }
 ```
+
 <br>
       </div>
     </li>
