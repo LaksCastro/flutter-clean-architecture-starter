@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="/assets/dot-logo.png" width="70" />
+  <img src="/assets/dot-logo.png" width="150" />
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">Dotpict</h1>
