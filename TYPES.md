@@ -1,5 +1,5 @@
 <details>
-  <summary>User Resource</summary>
+  <summary>User</summary>
   <ul>
     <li>
       <div>
@@ -51,7 +51,7 @@ const user : User = {
 </details>
 
 <details>
-  <summary>Color Code Resource</summary>
+  <summary>ColorCode</summary>
   <ul>
     <li>
       <div>
