@@ -12,6 +12,7 @@
 </p>
 
 ### Considerations
+This little documentation was written using only the browser DevTools as a base, so it has limited and incomplete data, but enough to create a good application. If you want to increase and improve the documentation even more, do not hesitate to visit the Dotpict website and/or edit this README.md! Thank you.
 
 ### Documentation
 - [Setup](#1-setup)
