@@ -1,5 +1,10 @@
-- ### User Resource
-- Interface
+<details>
+  <summary>User Resource</summary>
+  <ul>
+    <li>
+      <div>
+        <p>Interface</p>
+
 ```ts
 interface User {
   id: number;
@@ -16,8 +21,12 @@ interface User {
   is_verified: boolean;
 }
 ```
-
-- Example
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>Example</p>
+        
 ```ts
 const user : User = {
   id: 453197;
@@ -34,9 +43,18 @@ const user : User = {
   is_verified: true;
 }
 ```
+      </div>
+    </li>
+  </ul>
+</details>
 
-- ### Color Code Resource
-- Interface
+<details>
+  <summary>Color Code Resource</summary>
+  <ul>
+    <li>
+      <div>
+        <p>Interface</p>
+
 ```ts
 interface ColorCode {
   red: number;
@@ -45,8 +63,12 @@ interface ColorCode {
   alpha: number;
 }
 ```
-
-- Example
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>Example</p>
+        
 ```ts
 const colorCode : ColorCode {
   red: 209;
@@ -55,3 +77,7 @@ const colorCode : ColorCode {
   alpha: 255;
 }
 ```
+      </div>
+    </li>
+  </ul>
+</details>
