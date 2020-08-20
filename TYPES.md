@@ -57,6 +57,53 @@ const work : Work = {
     </li>
   </ul>
 </details>
+<details>
+  <summary>Work</summary>
+  <br>
+  <ul>
+    <li>
+      <div>
+        <p>Interface</p>
+
+```ts
+interface WorkThread {
+  id: number;
+  parent_id: number;
+  work_id: number;
+  user: User;
+  text: string;
+  comment_count: number;
+  thread_count: number;
+  is_liked_by_author: boolean;
+  created_at: number;
+}
+```
+
+<br>
+      </div>
+    </li>
+    <li>
+      <div>
+        <p>Example</p>
+        
+```ts
+const workThread : WorkThread = {
+  id: 492920,
+  parent_id: 0,
+  work_id: 1111111,
+  user: User,
+  text: "まさかの34。",
+  comment_count: 0,
+  thread_count: 0,
+  is_liked_by_author: false,
+  created_at: 1562329415
+}
+```
+<br>
+      </div>
+    </li>
+  </ul>
+</details>
 
 <details>
   <summary>RankedWork</summary>
