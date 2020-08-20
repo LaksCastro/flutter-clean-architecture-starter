@@ -19,7 +19,7 @@ This little documentation was written using only the browser DevTools as a base,
 - [Type|Entity definitions](https://github.com/LaksCastro/dotpict-api/blob/master/TYPES.md)
 - [Get trending arts](#2-get-trending-arts)
 - [Get recent arts](#3-get-recent-arts)
-- [Get works from a user](#4-get-works-from-a-user)
+- [Get works of a user](#4-get-works-of-a-user)
 - [Get work threads](#5-get-work-threads)
 - [Get work data](#6-get-work-data)
 
@@ -84,7 +84,7 @@ img {
 }
 ```
 
-### 4. Get works from a user
+### 4. Get works of a user
 - Endpoint: `/users/USER_ID/works`
 - Method: `GET`
 - Params:
