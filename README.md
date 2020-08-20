@@ -49,7 +49,7 @@ img {
     - usage: use this param to build a pagination system
     - value: any work ID
 - Return:
-```json
+```js
 {
   "data": {
     "works": Work[],
