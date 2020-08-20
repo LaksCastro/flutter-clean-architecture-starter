@@ -3,7 +3,7 @@
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">Dotpict</h1>
-<h4 align="center"><a href="https://github.com/LaksCastro/anime-tv-api/tree/master/app"><code>Analyse Extracted Code</code></a></h4>
+<h4 align="center"><a href="https://dotpict.net/"><code>Analyse Dotpict Platform</code></a></h4>
 <p align="center">Anime TV é um  aplicativo utilizado para Stream de animes totalmente grátis mas com anúncios. E este repositório é a documentação não oficial da API utilizada para buscar os dados dos animes.</a></p>
 <p align="center">
   <img  src="https://img.shields.io/badge/type-api_endpoints-purple" alt="Application Category" />
