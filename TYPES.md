@@ -34,3 +34,24 @@ const user : User = {
   is_verified: true;
 }
 ```
+
+### Color Code Resource
+- Interface
+```ts
+interface ColorCode {
+  red: number;
+  green: number;
+  blue: number;
+  alpha: number;
+}
+```
+
+- Example
+```ts
+const colorCode : ColorCode {
+  red: 209;
+  green: 133;
+  blue: 196;
+  alpha: 255;
+}
+```
