@@ -3,7 +3,7 @@
 </p>
 <p align="center">⭐⭐⭐⭐⭐</p>
 <h1 align="center">Dotpict</h1>
-<h4 align="center"><a href="https://dotpict.net/"><code>Analyse Dotpict Platform</code></a></h4>
+<h4 align="center"><a href="https://dotpict.net/"><code>See Dotpict Platform</code></a></h4>
 <p align="center">Dotpict is a complete web and mainly mobile platform to share, like, post, create and draw Pixel Arts. And its is a unofficial documentation about the API used by Dotpict.</p>
 <p align="center">
   <img  src="https://img.shields.io/badge/type-api_endpoints-purple" alt="Application Category" />
