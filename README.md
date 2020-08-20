@@ -11,6 +11,20 @@
   <img  src="https://img.shields.io/badge/where_from-doctpit_web_platform-blue" alt="Repo Ref" />
 </p>
 
+<br>
+
+<p align="center">
+  <img src="./assets/a.png" width="200">
+  <img src="./assets/b.png" width="200">
+  <img src="./assets/c.png" width="200">
+  <img src="./assets/d.png" width="200">
+  <img src="./assets/e.png" width="200">
+  <img src="./assets/f.png" width="200">
+  <img src="./assets/g.png" width="200">
+</p>
+
+<br>
+
 ## Considerations
 
 This little documentation was written using only the browser DevTools as a base, so it has limited and incomplete data, but enough to create a good application. If you want to increase and improve the documentation even more, do not hesitate to visit the Dotpict website and/or edit this README.md! Thank you.
