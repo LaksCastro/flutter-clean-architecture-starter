@@ -161,8 +161,7 @@ img {
 ```js
 {
   "data": {
-    "user": User,
-    "works": Work[],
+    "work_threads": WorkThread[],
     "next_url": string
   }
 }
